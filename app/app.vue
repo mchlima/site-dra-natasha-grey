@@ -22,7 +22,7 @@
     <main class="container-fluid">
       <!-- hero -->
       <section id="hero" class="hero container-fluid full-height">
-        hero
+        <NuxtImg src="/images/hero-bg.webp" fetchpriority="high" alt="Dra. Natasha Grey" />
       </section>
       <!-- /hero -->
 
@@ -181,8 +181,6 @@
               </form>
             </div>
           </div>
-
-
         </div>
       </section>
       <!-- /section contact -->
@@ -236,8 +234,16 @@
 
 .hero {
   margin-top: var(--topbar-height);
-  background: url('/images/hero-bg.webp') no-repeat center center;
-  background-size: cover;
+}
+
+.hero>img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
 }
 
 .clinic {
