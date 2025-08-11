@@ -192,8 +192,6 @@
 </template>
 
 <style>
-@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
-
 :root {
   --topbar-height: 60px;
 }
