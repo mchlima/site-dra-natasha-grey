@@ -123,39 +123,48 @@
           </p>
           <div class="container">
             <div class="team-member-card">
-              <h3>Dr. Rafael Costa</h3>
               <NuxtImg src="/images/team-member-1.webp" alt="Dr. Rafael Costa" width="380" />
-              <h4>Cirurgião Dentista</h4>
-              <span>CROSP 12345</span>
-              <p>
+              <div>
+                <h3>Dr. Rafael Costa</h3>
+                <h4>Cirurgião Dentista</h4>
+                <span>CROSP 12345</span>
+              </div>
+
+              <!-- <p>
                 Especialista em odontologia estética, o Dr. Rafael é apaixonado por transformar sorrisos de forma
                 natural e harmoniosa. Com mais de 10 anos de experiência, alia técnicas modernas a um atendimento
                 acolhedor, garantindo resultados que elevam a autoestima dos pacientes.
-              </p>
+              </p> -->
             </div>
 
             <div class="team-member-card">
-              <h3>Dra. Camila Martins</h3>
+
               <NuxtImg src="/images/team-member-2.webp" alt="Dra. Camila Martins" width="380" />
-              <h4>Cirurgiã Dentista</h4>
-              <span>CROSP 12345</span>
-              <p>
+              <div>
+                <h3>Dra. Camila Martins</h3>
+                <h4>Cirurgiã Dentista</h4>
+                <span>CROSP 12345</span>
+              </div>
+              <!-- <p>
                 Focado em implantodontia e reabilitação oral, o Dr. Rafael é reconhecido pela precisão e atenção aos
                 detalhes. Sua abordagem cuidadosa e o uso de tecnologia de ponta asseguram tratamentos confortáveis e
                 eficazes, sempre priorizando a saúde bucal a longo prazo.
-              </p>
+              </p> -->
             </div>
 
             <div class="team-member-card">
-              <h3>Dr. Mario Alves</h3>
+
               <NuxtImg src="/images/team-member-3.webp" alt="Dr. Mario Alves" width="380" />
-              <h4>Cirurgião Dentista</h4>
-              <span>CROSP 12345</span>
-              <p>
+              <div>
+                <h3>Dr. Mario Alves</h3>
+                <h4>Cirurgião Dentista</h4>
+                <span>CROSP 12345</span>
+              </div>
+              <!-- <p>
                 Especialista em ortodontia, a Dra. Camila se dedica a proporcionar sorrisos alinhados e funcionais para
                 todas as idades. Com um atendimento humanizado, explica cada etapa do tratamento de forma clara,
                 garantindo tranquilidade e confiança a seus pacientes.
-              </p>
+              </p> -->
             </div>
           </div>
         </div>
