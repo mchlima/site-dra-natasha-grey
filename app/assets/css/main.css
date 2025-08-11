@@ -296,7 +296,43 @@ h3 {
   color: #8a623d;
 }
 
-@media screen and (max-width: 991px) {
+/*
+  ======================================================
+  BREAKPOINT XL (Telas <= 1535px)
+  ======================================================
+*/
+@media (max-width: 1535px) {
+  /*
+    Neste ponto, o container de 1380px ainda é relevante.
+    O layout principal pode não precisar de muitas alterações aqui.
+  */
+}
+
+/*
+  ======================================================
+  BREAKPOINT LG (Telas <= 1279px)
+  ======================================================
+*/
+@media (max-width: 1279px) {
+  /*
+    Neste breakpoint, o seu container já está se adaptando
+    com width: 100%. A max-width de 1280px não tem mais efeito.
+    É um bom ponto para começar a simplificar o layout.
+    Ex: 4 colunas -> 3 colunas
+  */
+}
+
+/*
+  ======================================================
+  BREAKPOINT MD (Telas <= 1023px)
+  ======================================================
+*/
+@media (max-width: 1023px) {
+  /*
+    Este é o breakpoint clássico de tablet.
+    Layouts de 3 colunas podem virar 2.
+    Navegação pode se tornar um menu "hamburger".
+  */
   section > .container {
     padding: 0 1rem;
   }
@@ -308,4 +344,43 @@ h3 {
   .topbar > .container > .nav {
     display: none;
   }
+}
+
+/*
+  ======================================================
+  BREAKPOINT SM (Telas <= 767px)
+  ======================================================
+*/
+@media (max-width: 767px) {
+  /*
+    Smartphones grandes.
+    Layouts de 2 colunas podem virar 1.
+    Ajuste de margens e padding.
+  */
+}
+
+/*
+  ======================================================
+  BREAKPOINT MOBILE (Telas <= 639px)
+  ======================================================
+*/
+@media (max-width: 639px) {
+  /*
+    Smartphones padrão.
+    Ajuste final de fontes, espaçamento, etc.
+  */
+}
+
+/*
+  ==========================================
+  BREAKPOINT PARA MOBILE
+  (largura de tela até 479px)
+  ==========================================
+*/
+@media (max-width: 479px) {
+  /*
+    Foco em usabilidade e legibilidade em telas muito pequenas.
+    O padding do container pode ser menor.
+    As fontes podem precisar de um ajuste final.
+  */
 }
