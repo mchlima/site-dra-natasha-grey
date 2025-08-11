@@ -270,7 +270,6 @@
 }
 
 .clinic-card>h3 {
-  color: #c3a27c;
   margin-bottom: 2rem;
   text-align: center;
 }
@@ -326,7 +325,6 @@
 }
 
 .specialty-card>h3 {
-  color: #c3a27c;
   margin-bottom: 1rem;
   text-align: center;
 }
@@ -369,7 +367,6 @@
 }
 
 .team-member-card>h3 {
-  color: #c3a27c;
   margin-bottom: 1rem;
   text-align: center;
 }
@@ -495,11 +492,12 @@ h1 {
 
 h2 {
   font-size: 1.8rem;
-  color: #c3a27c;
+  color: #8a623d;
 }
 
 h3 {
-  font-size: 1.6rem;
+  font-size: 1.5rem;
+  color: #8a623d;
 }
 
 h4 {
