@@ -295,3 +295,17 @@ h2 {
 h3 {
   color: #8a623d;
 }
+
+@media screen and (max-width: 991px) {
+  section > .container {
+    padding: 0 1rem;
+  }
+
+  .topbar > .container {
+    justify-content: center;
+  }
+
+  .topbar > .container > .nav {
+    display: none;
+  }
+}
