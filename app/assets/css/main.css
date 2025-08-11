@@ -40,6 +40,10 @@
   color: #f6f2ec;
 }
 
+.topbar > .container > .nav > ul > li > a:hover {
+  color: #fff;
+}
+
 .hero {
   margin-top: var(--topbar-height);
 }
