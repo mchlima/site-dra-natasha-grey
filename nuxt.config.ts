@@ -8,6 +8,8 @@ export default defineNuxtConfig({
     "@nuxt/scripts",
     "@nuxtjs/google-fonts",
   ],
+
+  css: ["~/assets/css/main.css"],
   app: {
     head: {
       htmlAttrs: {
