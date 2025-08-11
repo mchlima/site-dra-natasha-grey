@@ -37,21 +37,21 @@
           <div class="container">
             <div class="clinic-card">
               <h3>Recepção</h3>
-              <NuxtImg src="/images/clinica1.jpg" alt="recepção" width="380" />
+              <NuxtImg src="/images/clinica1.webp" alt="recepção" width="380" />
               <h4>Um sorriso para receber você</h4>
               <p>Nossa equipe está pronta para oferecer um atendimento rápido e atencioso desde o primeiro momento.</p>
             </div>
 
             <div class="clinic-card">
               <h3>Sala de espera</h3>
-              <NuxtImg src="/images/clinica3.jpg" alt="sala espera" width="380" />
+              <NuxtImg src="/images/clinica3.webp" alt="sala espera" width="380" />
               <h4>Conforto enquanto aguarda</h4>
               <p>Um ambiente tranquilo, climatizado e preparado para que seu tempo aqui seja agradável.</p>
             </div>
 
             <div class="clinic-card">
               <h3>Consultório</h3>
-              <NuxtImg src="/images/clinica2.jpg" alt="consultório" width="380" />
+              <NuxtImg src="/images/clinica2.webp" alt="consultório" width="380" />
               <h4>Cuidado e atenção nos detalhes</h4>
               <p>Espaço moderno e equipado para garantir um atendimento seguro e de qualidade.</p>
             </div>
@@ -66,42 +66,42 @@
           <h2>Especialidades para Cada Etapa do Seu Sorriso</h2>
           <div class="container">
             <div class="specialty-card">
-              <NuxtImg src="/images/icon_gingivitis.png" alt="periodontia" width="48" />
+              <NuxtImg src="/images/icon_gingivitis.webp" alt="periodontia" width="48" />
               <h3>Periodontia</h3>
               <p>A Periodontia é responsável por prevenir e tratar as doenças e processos inflamatórios dos tecidos de
                 proteção e sustentação do dente: gengiva, ossos e ligamentos que circundam os dentes.</p>
             </div>
 
             <div class="specialty-card">
-              <NuxtImg src="/images/icon_orthodontic.png" alt="ortodontia" width="48" />
+              <NuxtImg src="/images/icon_orthodontic.webp" alt="ortodontia" width="48" />
               <h3>Ortodontia</h3>
               <p>Especialidade da Odontologia que trata das irregularidades tanto dentais quanto faciais, proporcionando
                 um equilíbrio facial adequado e harmônico.</p>
             </div>
 
             <div class="specialty-card">
-              <NuxtImg src="/images/icon_implant.png" alt="implantodontia" width="48" />
+              <NuxtImg src="/images/icon_implant.webp" alt="implantodontia" width="48" />
               <h3>Implantodontia</h3>
               <p>A Implantodontia restabelece a função de mastigação, bem como a estética da pessoa que tem um ou mais
                 dentes ausentes através da introdução de um parafuso que substitui a raiz do dente.</p>
             </div>
 
             <div class="specialty-card">
-              <NuxtImg src="/images/icon_gingivitis.png" alt="periodontia" width="48" />
+              <NuxtImg src="/images/icon_gingivitis.webp" alt="periodontia" width="48" />
               <h3>Periodontia</h3>
               <p>A Periodontia é responsável por prevenir e tratar as doenças e processos inflamatórios dos tecidos de
                 proteção e sustentação do dente: gengiva, ossos e ligamentos que circundam os dentes.</p>
             </div>
 
             <div class="specialty-card">
-              <NuxtImg src="/images/icon_orthodontic.png" alt="ortodontia" width="48" />
+              <NuxtImg src="/images/icon_orthodontic.webp" alt="ortodontia" width="48" />
               <h3>Ortodontia</h3>
               <p>Especialidade da Odontologia que trata das irregularidades tanto dentais quanto faciais, proporcionando
                 um equilíbrio facial adequado e harmônico.</p>
             </div>
 
             <div class="specialty-card">
-              <NuxtImg src="/images/icon_implant.png" alt="implantodontia" width="48" />
+              <NuxtImg src="/images/icon_implant.webp" alt="implantodontia" width="48" />
               <h3>Implantodontia</h3>
               <p>A Implantodontia restabelece a função de mastigação, bem como a estética da pessoa que tem um ou mais
                 dentes ausentes através da introdução de um parafuso que substitui a raiz do dente.</p>
@@ -124,7 +124,7 @@
           <div class="container">
             <div class="team-member-card">
               <h3>Dr. Rafael Costa</h3>
-              <NuxtImg src="/images/team-member-1.jpg" alt="Dr. Rafael Costa" width="380" />
+              <NuxtImg src="/images/team-member-1.webp" alt="Dr. Rafael Costa" width="380" />
               <h4>Cirurgião Dentista</h4>
               <span>CROSP 12345</span>
               <p>
@@ -136,7 +136,7 @@
 
             <div class="team-member-card">
               <h3>Dra. Camila Martins</h3>
-              <NuxtImg src="/images/team-member-2.jpg" alt="Dra. Camila Martins" width="380" />
+              <NuxtImg src="/images/team-member-2.webp" alt="Dra. Camila Martins" width="380" />
               <h4>Cirurgiã Dentista</h4>
               <span>CROSP 12345</span>
               <p>
@@ -148,7 +148,7 @@
 
             <div class="team-member-card">
               <h3>Dr. Mario Alves</h3>
-              <NuxtImg src="/images/team-member-3.jpg" alt="Dr. Mario Alves" width="380" />
+              <NuxtImg src="/images/team-member-3.webp" alt="Dr. Mario Alves" width="380" />
               <h4>Cirurgião Dentista</h4>
               <span>CROSP 12345</span>
               <p>
@@ -236,7 +236,7 @@
 
 .hero {
   margin-top: var(--topbar-height);
-  background: url('/images/hero-bg.jpg') no-repeat center center;
+  background: url('/images/hero-bg.webp') no-repeat center center;
   background-size: cover;
 }
 

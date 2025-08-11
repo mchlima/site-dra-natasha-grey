@@ -33,4 +33,7 @@ export default defineNuxtConfig({
       cursive: true,
     },
   },
+  image: {
+    quality: 75,
+  },
 });
