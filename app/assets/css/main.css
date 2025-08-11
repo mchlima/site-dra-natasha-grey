@@ -274,21 +274,9 @@
   cursor: pointer;
 }
 
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
-
 html {
   scroll-behavior: smooth;
   scroll-padding-top: var(--topbar-height);
-}
-
-html,
-body {
-  width: 100%;
-  height: 100%;
 }
 
 body {
@@ -300,38 +288,10 @@ body {
   font-size: 1.125rem;
 }
 
-h1 {
-  font-size: 2rem;
-}
-
 h2 {
-  font-size: 1.8rem;
   color: #8a623d;
 }
 
 h3 {
-  font-size: 1.5rem;
   color: #8a623d;
-}
-
-h4 {
-  font-size: 1.2rem;
-}
-
-h5 {
-  font-size: 1.2rem;
-}
-
-.container-fluid {
-  width: 100%;
-}
-
-.container {
-  max-width: 1380px;
-  width: 100%;
-  margin: 0 auto;
-}
-
-.full-height {
-  height: calc(100vh - var(--topbar-height));
 }

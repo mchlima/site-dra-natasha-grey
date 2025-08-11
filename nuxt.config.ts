@@ -9,7 +9,11 @@ export default defineNuxtConfig({
     "@nuxtjs/google-fonts",
   ],
 
-  css: ["~/assets/css/main.css"],
+  css: [
+    "~/assets/css/reset.css",
+    "~/assets/css/helpers.css",
+    "~/assets/css/main.css",
+  ],
   app: {
     head: {
       htmlAttrs: {
