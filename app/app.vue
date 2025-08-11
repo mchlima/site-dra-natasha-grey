@@ -197,7 +197,7 @@
 }
 
 .topbar {
-  background-color: #8B8F7A;
+  background-color: #5e6150;
   color: #F6F2EC;
   height: var(--topbar-height);
   display: flex;
@@ -420,7 +420,7 @@
 }
 
 .contact .contact-buttons>button {
-  background-color: #8B8F7A;
+  background-color: #5e6150;
   color: #F6F2EC;
   border: none;
   padding: 1rem 2rem;
@@ -455,7 +455,7 @@
 }
 
 .contact .contact-form button {
-  background-color: #8B8F7A;
+  background-color: #5e6150;
   color: #F6F2EC;
   border: none;
   padding: 1rem 2rem;
@@ -482,7 +482,7 @@ body {
 
 body {
   background-color: #F6F2EC;
-  color: #8B8F7A;
+  color: #5e6150;
   font-family: Tahoma, sans-serif;
   font-weight: 400;
   font-style: normal;

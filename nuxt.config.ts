@@ -10,6 +10,9 @@ export default defineNuxtConfig({
   ],
   app: {
     head: {
+      htmlAttrs: {
+        lang: "pt-br",
+      },
       title: "Dra. Natasha Grey - Odontologia",
       meta: [
         { name: "description", content: "Clínica Odontológica em São Paulo" },
