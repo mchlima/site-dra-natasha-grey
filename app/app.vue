@@ -295,7 +295,7 @@
 }
 
 .specialties {
-  background-color: #dad7d1;
+  background-color: #fdfcfb;
   padding: 4rem 0;
 }
 
@@ -398,7 +398,7 @@
 }
 
 .contact {
-  background-color: #dad7d1;
+  background-color: #fdfcfb;
   padding: 4rem 0;
 }
 
@@ -481,7 +481,7 @@ body {
 }
 
 body {
-  background-color: #F6F2EC;
+  background-color: #f8f5f0;
   color: #5e6150;
   font-family: Tahoma, sans-serif;
   font-weight: 400;
