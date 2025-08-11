@@ -38,6 +38,9 @@ export default defineNuxtConfig({
       "Great Vibes": true,
       cursive: true,
     },
+    download: true,
+    display: "swap",
+    preconnect: true,
   },
   image: {
     quality: 75,
