@@ -14,6 +14,14 @@ export default defineNuxtConfig({
       meta: [
         { name: "description", content: "Clínica Odontológica em São Paulo" },
       ],
+      link: [
+        { rel: "preconnect", href: "https://fonts.googleapis.com" },
+        {
+          rel: "preconnect",
+          href: "https://fonts.gstatic.com",
+          crossorigin: "",
+        },
+      ],
     },
   },
   googleFonts: {
