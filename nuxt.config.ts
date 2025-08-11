@@ -39,7 +39,6 @@ export default defineNuxtConfig({
       cursive: true,
     },
     download: true,
-    display: "swap",
     preconnect: true,
   },
   image: {
