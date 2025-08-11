@@ -7,6 +7,7 @@ export default defineNuxtConfig({
     "@nuxt/image",
     "@nuxt/scripts",
     "@nuxtjs/google-fonts",
+    "nuxt-swiper",
   ],
 
   css: [
