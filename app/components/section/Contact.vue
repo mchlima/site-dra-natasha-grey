@@ -2,7 +2,7 @@
   <!-- section contact -->
   <section id="contact" class="contact container-fluid">
     <div class="container">
-      <h2>Sorria com confiança: entre em contato conosco</h2>
+      <h2>Sorria com confiança: faça seu agendamento</h2>
       <div class="container">
         <div class="contact-buttons container">
           <button>WhatsApp</button>
