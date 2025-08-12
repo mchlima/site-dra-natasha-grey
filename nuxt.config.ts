@@ -8,8 +8,8 @@ export default defineNuxtConfig({
     "@nuxt/scripts",
     "@nuxtjs/google-fonts",
     "nuxt-swiper",
+    "@nuxt/icon",
   ],
-
   css: [
     "~/assets/css/reset.css",
     "~/assets/css/helpers.css",

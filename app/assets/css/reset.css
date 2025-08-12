@@ -37,3 +37,8 @@ h5 {
 h6 {
   font-size: 0.8rem;
 }
+
+a {
+  text-decoration: none;
+  color: inherit;
+}

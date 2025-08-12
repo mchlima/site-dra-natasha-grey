@@ -327,46 +327,59 @@ swiper-container > swiper-slide > img {
   margin-bottom: 3rem;
 }
 
-.contact .contact-buttons {
+.contact > .container > .container {
   display: flex;
   flex-wrap: wrap;
+  flex-grow: 0 0 auto;
   gap: 2rem;
-  justify-content: center;
-  margin-bottom: 2rem;
-}
-
-.contact > .container > .container {
-  text-align: center;
-}
-
-.contact .contact-buttons > button {
-  background-color: #5e6150;
-  color: #f6f2ec;
-  border: none;
-  padding: 1rem 2rem;
-  border-radius: 10px;
-  cursor: pointer;
+  align-items: stretch;
+  justify-content: space-around;
 }
 
 .contact > .container > .container > div {
-  margin-bottom: 2rem;
+  max-width: 620px;
+  margin: 0 0;
 }
 
-.contact .contact-form {
+.contact-fast {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.contact-fast > div {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  padding: 1rem;
+  border-radius: 10px;
+  background-color: #f8f5f0;
+}
+
+.contact-fast .icon {
+  width: 48px;
+  height: 48px;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
   gap: 2rem;
   justify-content: center;
 }
 
-.contact .contact-form input {
+.contact-form > form {
+  text-align: center;
+}
+
+.contact-form input {
   width: 100%;
   padding: 10px;
   border-radius: 10px;
   margin-bottom: 1rem;
 }
 
-.contact .contact-form textarea {
+.contact-form textarea {
   width: 100%;
   padding: 10px;
   border-radius: 10px;
@@ -374,7 +387,7 @@ swiper-container > swiper-slide > img {
   min-height: 100px;
 }
 
-.contact .contact-form button {
+.contact-form button {
   background-color: #5e6150;
   color: #f6f2ec;
   border: none;
