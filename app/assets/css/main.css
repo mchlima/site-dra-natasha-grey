@@ -2,6 +2,10 @@
   --topbar-height: 60px;
 }
 
+.container {
+  max-width: 1280px;
+}
+
 .topbar {
   background-color: #5e6150;
   color: #f6f2ec;
@@ -240,7 +244,8 @@ swiper-container > swiper-slide > img {
 
 .team-member-card {
   position: relative;
-  max-width: 100%;
+  width: 100%;
+  max-width: 400px;
   overflow: hidden;
 }
 
