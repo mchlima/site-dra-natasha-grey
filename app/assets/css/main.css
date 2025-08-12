@@ -344,6 +344,7 @@ swiper-container > swiper-slide > img {
 .contact-fast {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   gap: 2rem;
 }
 
@@ -354,6 +355,7 @@ swiper-container > swiper-slide > img {
   padding: 1rem;
   border-radius: 10px;
   background-color: #f8f5f0;
+  justify-content: space-between;
 }
 
 .contact-fast .icon {
@@ -361,18 +363,37 @@ swiper-container > swiper-slide > img {
   height: 48px;
 }
 
+.contact-fast > div > div {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  align-items: flex-end;
+}
+
 .contact-form {
   display: flex;
   flex-direction: column;
   gap: 2rem;
   justify-content: center;
+  padding: 2rem;
+  background-color: #f8f5f0;
+  border-radius: 10px;
 }
 
 .contact-form > form {
   text-align: center;
 }
 
+.contact-form > form > div {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
 .contact-form input {
+  flex: 1;
+  min-width: 250px;
   width: 100%;
   padding: 10px;
   border-radius: 10px;

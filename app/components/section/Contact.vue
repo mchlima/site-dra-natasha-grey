@@ -1,3 +1,8 @@
+<script setup lang="ts">
+import { ClientOnly } from '#components';
+
+</script>
+
 <template>
   <!-- section contact -->
   <section id="contact" class="contact container-fluid">
@@ -7,7 +12,9 @@
         <div class="container contact-fast">
           <div class="contact-whatsapp">
             <a href="#" class="whatsapp-icon">
-              <Icon class="icon" name="mdi:whatsapp" />
+              <ClientOnly>
+                <Icon class="icon" name="mdi:whatsapp" />
+              </ClientOnly>
             </a>
             <div class="whatsapp-info">
               <h3>WhatsApp</h3>
@@ -17,7 +24,9 @@
 
           <div class="contact-phone">
             <a href="#" class="phone-icon">
-              <Icon class="icon" name="mdi:phone" />
+              <ClientOnly>
+                <Icon class="icon" name="mdi:phone" />
+              </ClientOnly>
             </a>
             <div class="phone-info">
               <h3>Telefone</h3>
@@ -27,7 +36,9 @@
 
           <div class="contact-email">
             <a href="#" class="email-icon">
-              <Icon class="icon" name="mdi:email-fast-outline" />
+              <ClientOnly>
+                <Icon class="icon" name="mdi:email-fast-outline" />
+              </ClientOnly>
             </a>
             <div class="email-info">
               <h3>E-mail</h3>
@@ -39,8 +50,10 @@
         <div class="contact-form container">
           <p>Se preferir, deixe sua mensagem e nós entramos em contato com você.</p>
           <form>
-            <input type="text" placeholder="Nome">
-            <input type="text" placeholder="WhatsApp">
+            <div class="s">
+              <input type="text" placeholder="Nome">
+              <input type="text" placeholder="WhatsApp">
+            </div>
             <textarea placeholder="Mensagem"></textarea>
             <button type="submit">Enviar</button>
           </form>
