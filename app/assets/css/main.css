@@ -64,7 +64,7 @@
   z-index: -1;
 }
 
-.hero > .hero-overlay {
+.hero-overlay {
   position: absolute;
   top: 0;
   left: 0;
@@ -87,18 +87,28 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  gap: 3rem;
+  gap: 4rem;
   max-width: 450px;
   height: 100%;
 }
 
 .hero-content > h2 {
+  font-size: 3rem;
   text-transform: uppercase;
 }
 
 .hero-content > p {
   line-height: 1.5;
   text-align: justify;
+}
+
+.hero-content > button {
+  background-color: #5e6150;
+  color: #f6f2ec;
+  border: none;
+  padding: 1rem 2rem;
+  border-radius: 10px;
+  cursor: pointer;
 }
 
 .clinic {
