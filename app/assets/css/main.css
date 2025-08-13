@@ -167,9 +167,14 @@
   padding: 4rem 0;
 }
 
-.treatments > .container > h2 {
+.treatments > .container {
+  display: flex;
+  flex-direction: column;
+}
+
+.treatments > .container > h3 {
   text-align: left;
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
 }
 
 .treatments > .container > p {
@@ -181,28 +186,45 @@
 .treatments > .container > .container {
   display: flex;
   flex-wrap: wrap;
-  gap: 2rem;
-  justify-content: space-between;
+  justify-content: center;
+  align-items: stretch;
 }
 
-.treatment-card {
+.treatments-photo {
   width: 100%;
-  max-width: 380px;
+  max-width: 400px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.treatments-list {
+  width: fit-content;
+  padding: 2rem;
+  background-color: #f8f5f0;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.treatments-list > ul {
   display: flex;
   flex-direction: column;
+  justify-content: space-around;
+  width: fit-content;
+  height: 100%;
+  list-style: none;
+}
+
+.treatments-list > ul > li {
+  display: flex;
   align-items: center;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+  font-weight: 500;
 }
 
-.treatment-card > img {
-  width: 48px;
-  height: auto;
-  display: block;
-  margin-bottom: 1rem;
-}
-
-.treatment-card > h3 {
-  margin-bottom: 1rem;
-  text-align: center;
+.treatments-item > .icon {
+  width: 32px;
+  height: 32px;
 }
 
 .clinic {
@@ -246,6 +268,8 @@
 }
 
 .clinic-photos > img {
+  width: 100%;
+  max-width: 380px;
   border-radius: 10px;
 }
 
@@ -512,6 +536,18 @@ h3 {
 
   .topbar > .container > .nav {
     display: none;
+  }
+
+  .treatments-photo {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 0;
+  }
+
+  .treatments-list {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 0;
   }
 
   .team-member-card:first-child {

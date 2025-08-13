@@ -1,7 +1,7 @@
 <template>
   <!-- section clinic -->
   <section id="clinic" class="clinic container-fluid">
-    <NuxtImg preload src="/images/clinica3.jpg" alt="recepção" />
+    <NuxtImg preload src="/images/clinica3.jpg" alt="sala de espera" />
     <div class="container">
       <h2>Clínica Dra. Natasha Grey – Onde Cuidado e Conforto se Encontram</h2>
       <p>
@@ -11,8 +11,8 @@
 
       <div class="clinic-photos container">
         <NuxtImg src="/images/clinica1.webp" alt="recepção" />
-        <NuxtImg src="/images/clinica3.webp" alt="recepção" />
-        <NuxtImg src="/images/clinica2.webp" alt="recepção" />
+        <NuxtImg src="/images/clinica3.webp" alt="sala de espera" />
+        <NuxtImg src="/images/clinica2.webp" alt="consultório" />
       </div>
     </div>
   </section>
