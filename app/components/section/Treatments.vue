@@ -1,53 +1,54 @@
 <template>
   <!-- section treatments -->
-  <section id="treatments" class="treatments container-fluid">
-    <div class="container">
-      <h3>Tratamentos Personalizados para o Seu Sorriso</h3>
-      <p>
+  <section id="treatments" class="w-full bg-background-alt">
+    <div class="container mx-auto px-8 py-24">
+      <h3 class="text-2xl font-bold mb-8 text-accent text-center">Tratamentos Personalizados para o Seu Sorriso</h3>
+      <p class="mb-8 text-center">
         Conheça nossos tratamentos e descubra como podemos cuidar do seu sorriso em todas as fases da vida.
       </p>
-      <div class="container">
-        <NuxtImg src="/images/tratamento-menina-1x1.webp" class="treatments-photo" alt="paciente em tratamento" />
-        <div class="treatments-list">
-          <ul>
-            <li class="treatments-item">
-              <ClientOnly>
-                <Icon class="icon" name="mdi:check-decagram-outline" />
-              </ClientOnly>
-              Atendimento Emergencial
-            </li>
-            <li class="treatments-item">
-              <ClientOnly>
-                <Icon class="icon" name="mdi:check-decagram-outline" />
-              </ClientOnly>
-              Reabilitação Oral com Implantes
-            </li>
-            <li class="treatments-item">
-              <ClientOnly>
-                <Icon class="icon" name="mdi:check-decagram-outline" />
-              </ClientOnly>
-              Lentes de Contato e Clareamento
-            </li>
-            <li class="treatments-item">
-              <ClientOnly>
-                <Icon class="icon" name="mdi:check-decagram-outline" />
-              </ClientOnly>
-              Harmonização Facial
-            </li>
-            <li class="treatments-item">
-              <ClientOnly>
-                <Icon class="icon" name="mdi:check-decagram-outline" />
-              </ClientOnly>
-              Invisalign e Aparelhos
-            </li>
-            <li class="treatments-item">
-              <ClientOnly>
-                <Icon class="icon" name="mdi:check-decagram-outline" />
-              </ClientOnly>
-              Tratamento de ATM
-            </li>
-          </ul>
-        </div>
+      <div
+        class="flex flex-col md:flex-row md:w-fit md:mx-auto justify-center rounded-t-lg rounded-b-lg overflow-hidden bg-background">
+        <NuxtImg src="/images/tratamento-menina-1x1.webp" class="w-96" alt="paciente em tratamento" />
+
+        <ul class="flex flex-col gap-2 p-8 md:w-96">
+          <li class="flex gap-2 items-center">
+            <ClientOnly>
+              <Icon class="w-8 h-8 text-green-700" name="mdi:check-decagram-outline" />
+            </ClientOnly>
+            Atendimento Emergencial
+          </li>
+          <li class="flex gap-2 items-center">
+            <ClientOnly>
+              <Icon class="w-8 h-8 text-green-700" name="mdi:check-decagram-outline" />
+            </ClientOnly>
+            Reabilitação Oral com Implantes
+          </li>
+          <li class="flex gap-2 items-center">
+            <ClientOnly>
+              <Icon class="w-8 h-8 text-green-700" name="mdi:check-decagram-outline" />
+            </ClientOnly>
+            Lentes de Contato e Clareamento
+          </li>
+          <li class="flex gap-2 items-center">
+            <ClientOnly>
+              <Icon class="w-8 h-8 text-green-700" name="mdi:check-decagram-outline" />
+            </ClientOnly>
+            Harmonização Facial
+          </li>
+          <li class="flex gap-2 items-center">
+            <ClientOnly>
+              <Icon class="w-8 h-8 text-green-700" name="mdi:check-decagram-outline" />
+            </ClientOnly>
+            Invisalign e Aparelhos
+          </li>
+          <li class="flex gap-2 items-center">
+            <ClientOnly>
+              <Icon class="w-8 h-8 text-green-700" name="mdi:check-decagram-outline" />
+            </ClientOnly>
+            Tratamento de ATM
+          </li>
+        </ul>
+
       </div>
     </div>
   </section>

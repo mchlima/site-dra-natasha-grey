@@ -9,11 +9,12 @@ export default defineNuxtConfig({
     "@nuxtjs/google-fonts",
     "nuxt-swiper",
     "@nuxt/icon",
+    "@nuxtjs/tailwindcss",
   ],
   css: [
-    "~/assets/css/reset.css",
-    "~/assets/css/helpers.css",
-    "~/assets/css/main.css",
+    "~/assets/css/tailwind.css",
+    // "~/assets/css/helpers.css",
+    // "~/assets/css/main.css",
   ],
   app: {
     head: {
@@ -23,6 +24,7 @@ export default defineNuxtConfig({
       title: "Dra. Natasha Grey - Odontologia",
       meta: [
         { name: "description", content: "Clínica Odontológica em São Paulo" },
+        { name: "viewport", content: "width=device-width, initial-scale=1.0" },
       ],
       link: [
         { rel: "preconnect", href: "https://fonts.googleapis.com" },
@@ -32,6 +34,9 @@ export default defineNuxtConfig({
           crossorigin: "",
         },
       ],
+    },
+    rootAttrs: {
+      class: "h-full",
     },
   },
   googleFonts: {

@@ -1,39 +1,20 @@
 <template>
   <!-- section clinic -->
-  <section id="clinic" class="clinic container-fluid">
-    <NuxtImg preload src="/images/clinica3.jpg" alt="sala de espera" />
-    <div class="container">
-      <h2>Clínica Dra. Natasha Grey</h2>
-      <p>
+  <section id="clinic" class="w-full relative">
+    <NuxtImg fetch-priority="high" src="/images/clinica3.jpg" alt="sala de espera"
+      class="absolute inset-0 -z-10 opacity-30 w-full h-full object-cover" />
+    <div class="container mx-auto px-8 py-24">
+      <h3 class="text-2xl font-bold mb-8 text-accent text-center">Clínica Dra. Natasha Grey</h3>
+      <p class="mb-8 text-center">
         Um espaço moderno, aconchegante e equipado com tecnologia de ponta, pensado para tornar sua experiência única
         desde o primeiro atendimento.
       </p>
-
-      <div class="clinic-photos container">
-        <NuxtImg src="/images/clinica1.webp" alt="recepção" />
-        <NuxtImg src="/images/clinica3.webp" alt="sala de espera" />
-        <NuxtImg src="/images/clinica2.webp" alt="consultório" />
+      <div class="flex flex-col lg:flex-row lg:justify-center md:items-center gap-8">
+        <NuxtImg src="/images/clinica1.webp" alt="recepção" class="rounded-lg w-full max-w-80" />
+        <NuxtImg src="/images/clinica3.webp" alt="sala de espera" class="rounded-lg w-full max-w-80" />
+        <NuxtImg src="/images/clinica2.webp" alt="consultório" class="rounded-lg w-full max-w-80" />
       </div>
     </div>
   </section>
   <!-- /section clinic -->
 </template>
-
-<script setup lang="ts">
-// Create 10 slides
-const containerRef = ref(null)
-const swiper = useSwiper(containerRef)
-
-onMounted(() => {
-  console.log(swiper.instance)
-})
-</script>
-
-<style lang="css">
-swiper-slide {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-}
-</style>

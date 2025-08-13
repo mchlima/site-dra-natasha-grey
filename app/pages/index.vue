@@ -1,7 +1,7 @@
 <template>
-  <div>
+  <div class="w-full h-full">
     <!-- main content -->
-    <main class="container-fluid">
+    <main class="container-fluid w-full h-full">
       <SectionHero />
       <SectionSpecialties />
       <SectionTreatments />

@@ -1,20 +1,20 @@
 <template>
-  <!-- topbar -->
-  <header id="topbar" class="topbar container-fluid">
-    <div class="container">
-      <h1 class="logo">Dra. Natasha Grey</h1>
-      <nav class="nav">
-        <ul>
+  <!-- header -->
+  <header id="header" class="w-full h-16 flex bg-background-alt text-primary">
+    <div class="container mx-auto max-w-7xl flex justify-center xl:justify-between items-center">
+      <h1 class="">Dra. Natasha Grey</h1>
+      <nav class="hidden xl:block">
+        <ul class="flex gap-6">
           <li><a href="#hero">Início</a></li>
           <li><a href="#specialties">Especialidades</a></li>
           <li><a href="#treatments">Tratamentos</a></li>
           <li><a href="#clinic">Clínica</a></li>
           <li><a href="#team">Equipe</a></li>
           <li><a href="#contact">Contato</a></li>
-          <li><a href="#contact">Artigos</a></li>
+          <li><a href="#articles">Artigos</a></li>
         </ul>
       </nav>
     </div>
   </header>
-  <!-- /topbar -->
+  <!-- /header -->
 </template>

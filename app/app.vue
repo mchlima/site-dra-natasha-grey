@@ -1,6 +1,10 @@
 <template>
-  <div>
-    <Topbar />
+  <Html class="w-full h-full">
+
+  <Body class="bg-background text-text w-full">
+    <TopHeader />
     <NuxtPage />
-  </div>
+  </Body>
+
+  </Html>
 </template>
