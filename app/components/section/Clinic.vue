@@ -1,6 +1,7 @@
 <template>
   <!-- section clinic -->
   <section id="clinic" class="clinic container-fluid">
+    <NuxtImg preload src="/images/clinica3.jpg" alt="recepção" />
     <div class="container">
       <h2>Clínica Dra. Natasha Grey – Onde Cuidado e Conforto se Encontram</h2>
       <p>
