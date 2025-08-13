@@ -3,7 +3,7 @@
   <section id="clinic" class="clinic container-fluid">
     <NuxtImg preload src="/images/clinica3.jpg" alt="sala de espera" />
     <div class="container">
-      <h2>Clínica Dra. Natasha Grey – Onde Cuidado e Conforto se Encontram</h2>
+      <h2>Clínica Dra. Natasha Grey</h2>
       <p>
         Um espaço moderno, aconchegante e equipado com tecnologia de ponta, pensado para tornar sua experiência única
         desde o primeiro atendimento.
