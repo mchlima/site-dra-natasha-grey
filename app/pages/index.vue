@@ -3,8 +3,9 @@
     <!-- main content -->
     <main class="container-fluid">
       <SectionHero />
-      <SectionClinic />
       <SectionSpecialties />
+      <SectionTreatments />
+      <SectionClinic />
       <SectionTeam />
       <SectionContact />
     </main>

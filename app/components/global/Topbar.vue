@@ -6,8 +6,9 @@
       <nav class="nav">
         <ul>
           <li><a href="#hero">Início</a></li>
-          <li><a href="#clinic">Clínica</a></li>
           <li><a href="#specialties">Especialidades</a></li>
+          <li><a href="#treatments">Tratamentos</a></li>
+          <li><a href="#clinic">Clínica</a></li>
           <li><a href="#team">Equipe</a></li>
           <li><a href="#contact">Contato</a></li>
           <li><a href="#contact">Artigos</a></li>

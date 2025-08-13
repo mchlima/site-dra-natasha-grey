@@ -42,3 +42,14 @@ a {
   text-decoration: none;
   color: inherit;
 }
+
+textarea,
+input {
+  outline: none;
+  border: 1px solid #ccc;
+}
+
+textarea:focus,
+input:focus {
+  border: 1px solid #5e6150;
+}

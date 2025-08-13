@@ -3,6 +3,9 @@
   <section id="specialties" class="specialties container-fluid">
     <div class="container">
       <h2>Especialidades para Cada Etapa do Seu Sorriso</h2>
+      <p>
+        Conheça nossas especialidades e descubra como podemos cuidar do seu sorriso em todas as fases da vida.
+      </p>
       <div class="container">
         <div class="specialty-card">
           <NuxtImg src="/images/icon_gingivitis.webp" alt="periodontia" width="48" />
