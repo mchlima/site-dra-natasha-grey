@@ -9,10 +9,10 @@
             <NuxtImg :src="review.authorAttribution.photoUri" :alt="review.authorAttribution.displayName" />
             <div>
               <ClientOnly>
-                <Icon v-for="n in review.rating" :key="n" name="mdi:star" class="w-5 h-5 text-accent mr-2" />
+                <Icon v-for="n in review.rating" :key="n" name="mdi:star" class="w-4 h-4 text-accent mr-1" />
               </ClientOnly>
               <p class="font-semibold">{{ review.authorAttribution.displayName }}</p>
-              <p class="text-sm text-gray-500">{{ review.relativePublishTimeDescription }}</p>
+              <p class="text-sm text-muted">{{ review.relativePublishTimeDescription }}</p>
             </div>
           </div>
           <p class="text-gray-700">{{ review.text.text }}</p>
