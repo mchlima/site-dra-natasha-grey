@@ -9,6 +9,7 @@
       <SectionClinic />
       <SectionTeam />
       <SectionContact />
+      <SectionReviews />
     </main>
     <!-- /main content -->
   </div>

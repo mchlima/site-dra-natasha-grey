@@ -1,0 +1,55 @@
+<template>
+  <!-- section results -->
+  <section id="contact" class="w-full">
+    <div class="container mx-auto px-8 py-24">
+      <h3 class="text-2xl font-bold mb-8 text-accent text-center">Avaliações</h3>
+      <div class="container flex flex-col gap-16 xl:flex-row xl:flex-wrap xl:justify-between">
+        <div v-for="review in reviews.reviews" :key="review.publishTime" class="flex flex-col gap-4 xl:w-80">
+          <div class="flex gap-4">
+            <NuxtImg :src="review.authorAttribution.photoUri" :alt="review.authorAttribution.displayName" />
+            <div>
+              <ClientOnly>
+                <Icon v-for="n in review.rating" :key="n" name="mdi:star" class="w-5 h-5 text-accent mr-2" />
+              </ClientOnly>
+              <p class="font-semibold">{{ review.authorAttribution.displayName }}</p>
+              <p class="text-sm text-gray-500">{{ review.relativePublishTimeDescription }}</p>
+            </div>
+          </div>
+          <p class="text-gray-700">{{ review.text.text }}</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- /section results -->
+</template>
+
+<script setup>
+
+const error = ref(false)
+const loading = ref(true)
+const reviews = ref({})
+
+const getGooglePlaceReviews = async () => {
+  const response = await fetch('https://places.googleapis.com/v1/places/ChIJYZK7yNZVzpQR-k1LwT01sAg', {
+    headers: {
+      'Content-Type': `application/json`,
+      'X-Goog-Api-Key': `AIzaSyD8y_baosxcwbmYkNUuv5MmRa2kIxRGikc`,
+      'X-Goog-FieldMask': `id,displayName,rating,reviews,reviewSummary`,
+    }
+  })
+  return response.json()
+}
+
+onMounted(async () => {
+  try {
+    reviews.value = await getGooglePlaceReviews()
+  } catch (error) {
+    error.value = true
+    console.error('Error fetching reviews:', error)
+  } finally {
+    loading.value = false
+  }
+
+})
+
+</script>
