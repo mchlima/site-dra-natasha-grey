@@ -10,9 +10,9 @@
         desde o primeiro atendimento.
       </p>
       <div class="flex flex-col lg:flex-row lg:justify-center md:items-center gap-8">
-        <NuxtImg src="/images/clinica1.webp" alt="recepção" class="rounded-lg w-full max-w-80" />
-        <NuxtImg src="/images/clinica3.webp" alt="sala de espera" class="rounded-lg w-full max-w-80" />
-        <NuxtImg src="/images/clinica2.webp" alt="consultório" class="rounded-lg w-full max-w-80" />
+        <NuxtImg src="/images/clinica1.webp" alt="recepção" class="rounded-lg w-full" />
+        <NuxtImg src="/images/clinica3.webp" alt="sala de espera" class="rounded-lg w-full" />
+        <NuxtImg src="/images/clinica2.webp" alt="consultório" class="rounded-lg w-full" />
       </div>
     </div>
   </section>

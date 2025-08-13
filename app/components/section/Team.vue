@@ -10,10 +10,10 @@
         seguro e acolhedor. Aqui, você não encontra apenas dentistas — encontra parceiros dedicados à saúde e à
         estética do seu sorriso.
       </p>
-      <div class="flex md:justify-center">
-        <div class="flex flex-col md:flex-row md:justify-center rounded-lg overflow-hidden">
-          <div class="relative">
-            <NuxtImg src="/images/team-member-1.webp" alt="Dr. Rafael Costa" width="380" />
+      <div class="flex justify-center xl:justify-center">
+        <div class="flex flex-col gap-8 md:flex-row md:justify-between md:w-full">
+          <div class="relative rounded-lg overflow-hidden w-full">
+            <NuxtImg src="/images/team-member-1.webp" alt="Dr. Rafael Costa" class="w-full" />
             <div class="absolute bottom-0 h-fit w-full text-background text-center py-8">
               <h3 class="text-accent font-bold text-xl">Dr. Rafael Costa</h3>
               <h4>Cirurgião Dentista</h4>
@@ -27,9 +27,8 @@
               </p> -->
           </div>
 
-          <div class="relative">
-
-            <NuxtImg src="/images/team-member-2.webp" alt="Dra. Camila Martins" width="380" />
+          <div class="relative rounded-lg overflow-hidden w-full">
+            <NuxtImg src="/images/team-member-2.webp" alt="Dra. Camila Martins" class="w-full" />
             <div class="absolute bottom-0 h-fit w-full text-background text-center py-8">
               <h3 class="text-accent font-bold text-xl">Dra. Camila Martins</h3>
               <h4>Cirurgiã Dentista</h4>
@@ -42,9 +41,8 @@
               </p> -->
           </div>
 
-          <div class="relative">
-
-            <NuxtImg src="/images/team-member-3.webp" alt="Dr. Mario Alves" width="380" />
+          <div class="relative rounded-lg overflow-hidden w-full">
+            <NuxtImg src="/images/team-member-3.webp" alt="Dr. Mario Alves" class="w-full" />
             <div class="absolute bottom-0 h-fit w-full text-background text-center py-8">
               <h3 class="text-accent font-bold text-xl">Dr. Mario Alves</h3>
               <h4>Cirurgião Dentista</h4>
@@ -64,9 +62,9 @@
 </template>
 
 <style scoped>
-#team>div>div>div>div {
+#team>div>div>div>div>div {
   background: linear-gradient(180deg,
       rgba(0, 0, 0, 0) 0%,
-      rgba(0, 0, 0, 1) 100%);
+      rgba(0, 0, 0, 1) 80%);
 }
 </style>
