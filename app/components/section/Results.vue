@@ -2,7 +2,7 @@
   <!-- section results -->
   <section id="results" class="w-full bg-accent">
     <div
-      class="container flex flex-col gap-16 md:flex-row md:justify-around mx-auto max-w-7xl px-8 xl:px-0 py-24 text-background">
+      class="container flex flex-col gap-16 md:flex-row md:justify-around mx-auto max-w-7xl px-8 xl:px-0 xl:justify-between py-24 text-background">
       <div class="flex flex-col gap-4 items-center">
         <ClientOnly>
           <Icon name="mdi:medal" class="w-16 h-16" />

@@ -1,7 +1,7 @@
 <template>
   <!-- section contact -->
   <section id="contact" class="w-full bg-background-alt">
-    <div class="container mx-auto px-8 py-24">
+    <div class="container mx-auto max-w-7xl px-8 py-24">
       <h3 class="text-2xl font-bold mb-8 text-accent text-center">Sorria com confiança: faça seu agendamento</h3>
       <div class="flex flex-col md:flex-row md:justify-center gap-8">
         <div class="flex flex-col gap-4 justify-between w-full">

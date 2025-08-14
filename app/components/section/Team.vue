@@ -1,7 +1,7 @@
 <template>
   <!-- section team -->
   <section id="team" class="w-full">
-    <div class="container mx-auto px-8 py-24">
+    <div class="container mx-auto max-w-7xl px-8 py-24">
       <h3 class="text-2xl font-bold mb-8 text-accent text-center">Sorria com confiança: conheça nossa equipe de
         especialistas</h3>
       <p class="mb-8 text-center">

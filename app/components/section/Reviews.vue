@@ -1,9 +1,13 @@
 <template>
   <!-- section results -->
   <section id="contact" class="w-full">
-    <div class="container mx-auto px-8 py-24">
-      <h3 class="text-2xl font-bold mb-8 text-accent text-center">Avaliações</h3>
-      <div class="container flex flex-col gap-16 xl:flex-row xl:flex-wrap xl:justify-between">
+    <div class="container mx-auto max-w-7xl px-8 py-24">
+      <h3 class="text-2xl font-bold mb-8 text-accent text-center">Sorrisos que Contam Histórias</h3>
+      <p class="mb-32 text-center">
+        Cada paciente vive uma experiência única. Veja as avaliações e depoimentos de quem já confiou seu sorriso ao
+        cuidado da Dra. Natasha Grey.
+      </p>
+      <div class="container flex flex-col gap-16 xl:flex-row xl:flex-wrap xl:justify-center">
         <div v-for="review in reviews.reviews" :key="review.publishTime" class="flex flex-col gap-4 xl:w-80">
           <div class="flex gap-4">
             <NuxtImg :src="review.authorAttribution.photoUri" :alt="review.authorAttribution.displayName" />

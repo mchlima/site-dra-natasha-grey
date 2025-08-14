@@ -1,7 +1,7 @@
 <template>
   <!-- section specialties -->
   <section id="specialties" class="w-full">
-    <div class="container mx-auto px-8 xl:px-0 py-24">
+    <div class="container mx-auto px-8 xl:px-0 py-24 max-w-7xl">
       <h3 class="text-2xl font-bold mb-8 text-accent text-center">Especialidades para Cada Etapa do Seu Sorriso</h3>
       <p class="mb-8 text-center">
         Conheça nossas especialidades e descubra como podemos cuidar do seu sorriso em todas as fases da vida.

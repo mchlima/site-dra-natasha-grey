@@ -1,7 +1,7 @@
 <template>
   <!-- section treatments -->
   <section id="treatments" class="w-full bg-background-alt">
-    <div class="container mx-auto px-8 py-24 xl:px-0">
+    <div class="container mx-auto max-w-7xl px-8 py-24 xl:px-0">
       <h3 class="text-2xl font-bold mb-8 text-accent text-center">Tratamentos Personalizados para o Seu Sorriso</h3>
       <p class="mb-8 text-center">
         Conheça nossos tratamentos e descubra como podemos cuidar do seu sorriso em todas as fases da vida.
