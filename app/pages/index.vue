@@ -8,8 +8,10 @@
       <SectionTreatments />
       <SectionClinic />
       <SectionTeam />
-      <SectionContact />
       <SectionReviews />
+      <SectionBlog />
+      <SectionFaq />
+      <SectionContact />
     </main>
     <!-- /main content -->
   </div>

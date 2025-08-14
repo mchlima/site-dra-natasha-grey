@@ -10,8 +10,11 @@
           <li><a href="#treatments">Tratamentos</a></li>
           <li><a href="#clinic">Clínica</a></li>
           <li><a href="#team">Equipe</a></li>
+          <li><a href="#avaliacoes">Avaliações</a></li>
+          <li><a href="#articles">Blog</a></li>
+
+          <li><a href="#perguntas-frequentes">Dúvidas</a></li>
           <li><a href="#contact">Contato</a></li>
-          <li><a href="#articles">Artigos</a></li>
         </ul>
       </nav>
     </div>
