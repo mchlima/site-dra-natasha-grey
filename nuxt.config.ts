@@ -36,7 +36,7 @@ export default defineNuxtConfig({
       ],
     },
     rootAttrs: {
-      class: "h-full",
+      class: "w-full h-full flex flex-col",
     },
   },
   googleFonts: {

@@ -3,8 +3,8 @@
     <div class="container mx-auto max-w-7xl px-8 xl:px-0 py-24">
       <h3 class="text-2xl font-bold mb-8 text-accent text-center">"Clínica em Pauta" – Artigos e dicas direto da Dra.
         Natasha Grey.</h3>
-      <div class="container flex flex-col gap-4 md:flex-row md:justify-around flex-wrap">
-        <div v-for="post in posts" :key="post.id" class="border border-gray-200 rounded-lg overflow-hidden max-w-72">
+      <div class="container flex flex-col gap-4 items-center md:justify-around flex-wrap">
+        <div v-for="post in posts" :key="post.id" class="border border-gray-200 rounded-lg overflow-hidden md:max-w-72">
           <NuxtImg :src="post.thumbnail" :alt="post.title" class="aspect-4/3 object-cover" />
           <div class="p-4 flex flex-col gap-4">
             <h4 class="text-lg text-accent font-semibold ">{{ post.title }}</h4>

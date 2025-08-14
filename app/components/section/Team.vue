@@ -11,7 +11,7 @@
         estética do seu sorriso.
       </p>
       <div class="flex justify-center xl:justify-center">
-        <div class="flex flex-col gap-8 md:flex-row md:justify-between md:w-full">
+        <div class="flex flex-col gap-8 md:flex-row md:justify-between w-full">
           <div class="relative rounded-lg overflow-hidden w-full">
             <NuxtImg src="/images/team-member-1.webp" alt="Dr. Rafael Costa" class="w-full" />
             <div class="absolute bottom-0 h-fit w-full text-background text-center py-8">
